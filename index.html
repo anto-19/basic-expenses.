@@ -27,6 +27,9 @@
         <div>
             <label for="">Data:</label>
             <input type="date" name="date">
+
+            <label for="">Note:</label>
+            <textarea name="note" placeholder="Add your note hear....."></textarea>
         </div>
         <div>
             <input type="submit" class="sub">
@@ -39,10 +42,21 @@
             <th>item</th>
             <th>date</th>
             <th>amount</th>
+            <th>note</th>
         </tr>
     </table>
 
-    <p class="spend"> </p>
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">X</div>
+            <div class="popup-content">
+                <P class="popup-text">
+                    <span class="show-more"></span>
+                </P>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
