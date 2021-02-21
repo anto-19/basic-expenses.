@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Expenses</h1>
+
+
+    <form class="form">
+
+        <div class="fomr-top">
+            <label for="">Item:</label>
+            <input type="text" name="item">
+
+            <label for="">Amount:</label>
+            <input type="number" name="amount">
+        </div>
+
+        <div>
+            <label for="">Data:</label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <input type="submit" class="sub">
+        </div>
+    </form>
+
+
+    <table id="t01">
+        <tr>
+            <th>item</th>
+            <th>date</th>
+            <th>amount</th>
+        </tr>
+    </table>
+
+    <p class="spend"> </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
