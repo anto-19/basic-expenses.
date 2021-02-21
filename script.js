@@ -42,7 +42,7 @@ function generateTable() {
                 let html = `
                     <td>${item.item}</td>
                     <td>${item.date}</td>
-                    <td>${item.amount}</td>
+                    <td>$${item.amount}</td>
                     <td>${item.note.length > 10 ? `${slice} <span class="more" >...read more </span>` : item.note} </td>
                     <td class="delete">Delete</td>`;
                     row.innerHTML += html;
